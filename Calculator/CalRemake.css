@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(168, 102, 229);
+}
+.cal{
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-color: dimgray;
+    padding: 5px;
+    margin: 70px auto;
+}
+.output{
+    height: 50px;
+    background-color: white;
+    text-align: right;
+    line-height: 60px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+.row{
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    margin: 2px 3px;
+    height: 50px;
+    padding-top: 15px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    background-color: azure;
+}
